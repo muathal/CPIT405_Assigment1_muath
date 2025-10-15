@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="general-style-config.css"/>
+</head>
+<body id="container">
+<section id="header">
+    <h2 id="Muath">Muath Alhurtumi</h2>
+    <ul id="navbar">
+        <li><a href="index.html">CV</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</section>
+<section id="content">
+    <form target="_blank" id="contact-form" action="https://webhook.site/ce3eda39-e09a-4be4-b88b-576384356b84" method="POST">
+        <h2>Contact</h2>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="10" placeholder="Enter your message"></textarea>
+        <fieldset>
+        <legend>message type:</legend>
+        <input type="radio" id = "complaint" value="complaint" name="message_type" checked>
+        <label for="complaint">Complaint</label>
+        <input type="radio" id = "inquiry" value="inquiry" name="message_type">
+        <label for="inquiry">Inquiry</label>
+        </fieldset>
+        <input type="submit" value="Submit">
+    </form>
+</section>
+<section id="sidebar">
+    <img src="Muath.jpg" alt="profile picture" id="profile-picture">
+    <div id="contact-info">
+        <hr class="dashed">
+        <h2>Contact Info</h2>
+        <div class="contact">
+            <p>Email:<p>
+            <a href="mailto:muathalhurtumi@gmail.com">
+                muathalhurtumi@gmail.com
+            </a>
+            <br>
+            <p>Phone:</p>
+            <a href="tel:966536644243">
+                +966536644243
+            </a>
+        </div>
+    </div>
+    <div id="social">
+        <a target="_blank" href="https://www.linkedin.com/in/muath-alhurtumi/">
+            <img src="linkedin.png" alt="LinkedIn">
+        </a>
+        <a target="_blank" href="https://www.x.com/muathw12">
+            <img src="X.png" alt="X">
+        </a>
+    </div>
+</section>
+<section id="footer">
+    <p>© 2025 Muath Alhurtumi</p>
+</section>
+</body>
+</html>
